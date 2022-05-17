@@ -7,13 +7,15 @@ html {
 }
 
 * {
-    /* border: 1px solid blue; */
     margin: 0;
     padding: 0;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .header {
-    /* border: 2px solid red; */
     font-size: 24px;
     color: #F9FAF8;
     background: #1f2937;
@@ -23,14 +25,7 @@ html {
     padding-left: 8px;
 }
 
-body {
-    /* border: 2px solid red; */
-    font-family: 'Roboto', sans-serif;
-}
-
-a,
-.links {
-    /* border: 2px solid green; */
+a, .links {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
@@ -39,15 +34,13 @@ a,
     /* gap: 16px; */
 }
 
-/* .wrapper {
-    border: 2px solid blueviolet;
+.wrapper {
     display: flex;
     justify-content: center;
     flex-direction: column;    
-} */
+}
 
 .links {
-    /* border: 4px solid orange; */
     display: flex;
     gap: 16px;
     padding: 16px;
