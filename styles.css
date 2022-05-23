@@ -39,6 +39,7 @@ button:hover {
 
 .bottom {
     border: 2px solid white;
+    margin: 0;
 }
 
 img {
@@ -243,6 +244,17 @@ footer .container {
 
     .right {
         font-size: 20px;
+    }
+
+    .signup .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        max-height: 100%;
+
     }
 
 }
